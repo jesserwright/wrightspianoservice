@@ -1,0 +1,20 @@
+{
+  "name": "wrights-piano-service",
+  "version": "1.0.0",
+  "description": "Website for Wright's Piano Service",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "dev": "nodemon -e js,md index.js & live-server public",
+    "deploy": "vercel"
+  },
+  "keywords": [],
+  "author": "Jesse Wright",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "marked": "^1.2.7",
+    "nodemon": "^2.0.6",
+    "vercel": "^21.0.1"
+  }
+}
